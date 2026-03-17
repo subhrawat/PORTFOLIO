@@ -1,0 +1,129 @@
+site_name: "Subodh Rawat - Portfolio"
+site_description: "Professional portfolio website for CSE student and aspiring software developer"
+site_url: "https://subodh-rawat.github.io"
+
+# Personal Information
+owner:
+  name: "Subodh Rawat"
+  title: "CSE Student | Aspiring Software Developer"
+  email: "mukulsubodh1234@gmail.com"
+  phone: "+91-7248125480"
+  location: "India"
+  
+# Social Links
+social:
+  github: "https://github.com/subhrawat"
+  linkedin: "https://linkedin.com/in/subodh-rawat"
+  email: "mukulsubodh1234@gmail.com"
+
+# Theme Configuration
+theme:
+  primary_color: "#00d4ff"
+  secondary_color: "#0099cc"
+  accent_color: "#ff006e"
+  dark_mode: true
+  font_family: "Poppins"
+
+# Education
+education:
+  - degree: "B.Tech in Computer Science Engineering"
+    institution: "Lovely Professional University"
+    start_year: 2023
+    end_year: "Present"
+    cgpa: 7.22
+  - degree: "Intermediate (Senior Secondary)"
+    percentage: 91.6
+  - degree: "Matriculation (Secondary)"
+    percentage: 95
+
+# Skills
+skills:
+  programming:
+    - "C++"
+    - "C"
+    - "Java"
+    - "Python"
+  web:
+    - "HTML5"
+    - "CSS3"
+    - "JavaScript"
+    - "Tailwind CSS"
+  frameworks:
+    - "Scikit-learn"
+    - "Pandas"
+    - "Matplotlib"
+    - "Seaborn"
+  databases:
+    - "MySQL"
+    - "Oracle"
+    - "SQL"
+  tools:
+    - "Git"
+    - "GitHub"
+    - "VS Code"
+    - "Google Colab"
+    - "PowerBI"
+  soft_skills:
+    - "Teamwork"
+    - "Adaptability"
+    - "Time Management"
+    - "Communication"
+
+# Projects
+projects:
+  - title: "Crop Yield Prediction System"
+    category: "Machine Learning"
+    description: "ML model using Linear Regression to predict crop yield based on agricultural data"
+    technologies:
+      - "Python"
+      - "Scikit-learn"
+      - "HTML/CSS"
+      - "JavaScript"
+      - "MySQL"
+      - "PHP"
+    features:
+      - "Data preprocessing"
+      - "Feature selection"
+      - "R2 & MSE evaluation"
+      - "Frontend visualization"
+    github_link: "https://github.com/subhrawat"
+    
+  - title: "Uttarakhand Tourism Website"
+    category: "Web Development"
+    description: "Responsive tourism website showcasing destinations and travel packages"
+    technologies:
+      - "HTML5"
+      - "CSS3"
+      - "JavaScript"
+      - "Responsive Design"
+    features:
+      - "Interactive UI"
+      - "Structured itineraries"
+      - "Clean navigation"
+      - "Mobile responsive"
+    github_link: "https://github.com/subhrawat"
+
+# Certifications
+certifications:
+  - title: "Data Structures and Algorithms using Python"
+    issuer: "Online Course"
+    date: "2024"
+  - title: "Hackathon: Code of Duty"
+    issuer: "Participants"
+    date: "2024"
+
+# Featured Content
+featured_projects_count: 2
+show_blog: false
+show_testimonials: false
+
+# SEO
+seo:
+  keywords: "CSE Student, Software Developer, Python, Web Development, Machine Learning, Portfolio"
+  author: "Subodh Rawat"
+  canonical_url: "https://subodh-rawat.github.io"
+
+# Analytics (Optional - Add your tracking ID if needed)
+analytics:
+  google_analytics: ""
+  gtag: ""

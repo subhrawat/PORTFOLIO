@@ -1,0 +1,45 @@
+# Robots.txt for Subodh Rawat Portfolio
+# Last Updated: March 2024
+
+# Default rules
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /temp/
+Allow: /
+
+# Google Bot
+User-agent: Googlebot
+Crawl-delay: 0
+Allow: /
+
+# Bing Bot
+User-agent: Bingbot
+Crawl-delay: 1
+Allow: /
+
+# Yandex Bot
+User-agent: YandexBot
+Crawl-delay: 1
+Allow: /
+
+# Specific paths
+Disallow: /assets/documents/
+Disallow: /*.zip$
+Disallow: /*.rar$
+Disallow: /*.tar$
+
+# Sitemap location
+Sitemap: https://subodh-rawat.github.io/sitemap.xml
+Sitemap: https://subodh-rawat.github.io/sitemap-alt.xml
+
+# Crawl delay in seconds
+Crawl-delay: 1
+
+# Request rate
+Request-rate: 1/10s
+
+# Comment out these rules to disallow specific crawlers:
+# User-agent: MJ12bot
+# Disallow: /
